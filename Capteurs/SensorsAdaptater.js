@@ -52,9 +52,3 @@ class ThermalSensorBAdapter {
     });
   }
 }
-
-module.exports = {
-  CameraAAdapter,
-  TemperatureSensorAAdapter,
-  ThermalSensorBAdapter,
-};

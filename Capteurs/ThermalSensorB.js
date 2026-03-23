@@ -1,4 +1,4 @@
-class ThermalSensorB {
+export default class ThermalSensorB {
   constructor(position) {
     this.position = position;
     this.process = null;
@@ -18,5 +18,3 @@ class ThermalSensorB {
     }
   }
 }
-
-module.exports = ThermalSensorB;

@@ -1,4 +1,4 @@
-class CameraA {
+export default class CameraA {
   constructor(location) {
     this.location = location;
     this.callback = null;
@@ -14,5 +14,3 @@ class CameraA {
     }
   }
 }
-
-module.exports = CameraA;
